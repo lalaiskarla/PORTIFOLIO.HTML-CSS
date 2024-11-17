@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Curso 01</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Passion+One:wght@400;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+        body {
+            background-color: black;
+            margin: 0;
+            height: 100vh; /* Garantir que o body ocupe toda a altura da janela */
+            display: flex; /* Habilita o Flexbox no body */
+            justify-content: center; /* Centraliza o <main> horizontalmente */
+            align-items: center; /* Centraliza o <main> verticalmente */
+        }
+
+        h1 {
+            font-family: "Krona One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 36px;
+            color: #F6F6F6;
+        }
+
+        strong {
+            color: #22D4FD;
+        }
+
+        p, footer {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+            color: #F6F6F6;
+            font-size: 24px;
+        }
+
+        a {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 24px;
+            text-decoration: none;
+            color:  #000000;
+            background-color: #22D4FD;
+            padding: 15px 60px;
+            margin-right: 10px;
+            border-radius: 10px;
+            
+        }
+
+        main {
+            display: flex; /* Habilita Flexbox para o layout lado a lado */
+            align-items: center; /* Alinha verticalmente os elementos dentro do <main> */
+            justify-content: space-between; /* Dá espaço entre o conteúdo e a imagem */
+            padding: 20px;
+            max-width: 50%; /* Limita a largura do <main> */
+            background-color: #333; /* Cor de fundo para o conteúdo */
+            border-radius: 8px;
+            color: #F6F6F6;
+        }
+
+        .content {
+            max-width: 90%; /* Limita a largura do conteúdo para que a imagem não ocupe o espaço todo */
+        }
+
+        img {
+            max-width: 90%;            /* Limita a largura da imagem */
+            height: auto;
+            border-radius: 8px; /* Opcional: bordas arredondadas na imagem */
+        }
+        .conteudo{
+            max-width: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="imagens/logoalura.webp" alt="Logo Alura">
+        </figure>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
+            <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <a href="https://www.instagram.com/lalaisbarross" target="_blank">Instagram</a>
+            <a href="https://github.com/lalaiskarla" target="_blank">GitHub</a>
+        </section>
+        <figure><img src="imagens/Imagem.svg" alt="Foto João Santos programando.">
+        <figcaption>Joana Santos programando</figcaption></figure>
+    </main>
+
+    <footer> 
+        <p>Alura</p>
+        <p>AOVS Sistemas de Informática S.A</p>
+        <p>CNPJ 05.555.382/0001-33</p>
+    </footer>
+</body>
+</html>

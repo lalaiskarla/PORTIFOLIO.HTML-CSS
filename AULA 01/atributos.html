@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos Globais: aria-* e on* Formulário</title>
+</head>
+<body>
+    
+
+
+    <form accesskey="">
+  <label>Nome completo</label>
+  <br> 
+  <input type="text">
+  <br> 
+  
+  <label>Digite seu elogio</label>
+  <br> 
+  <textarea></textarea>
+  <br> 
+  <button type="submit">Enviar</button>
+</form>
+
+<button aria-label="Fechar">X</button>
+<div aria-hidden="true">Conteúdo invísivel para leitores de tela</div>
+<div aria-live="polite">Atualizações ao vivo aqui...</div>
+<div role="alert">Mensagem de alerta</div> 
+<button aria-expanded="false">mostrar mais</button> <br> <br>
+<button aria-controls="menu">abrir menu</button>
+<div id="menu" role="menu">menu de opções</div> <br> <br>
+
+<div hidden>Este conteúdo está oculto</div>
+
+<h2>Atributos de evento (on*)</h2>
+<button onclick="alert('Você clicou no botão!')">Clique-me!</button> <br>
+<div onmouseover="this.style.backgroundColor='yellow'">Passe o mouse sobre mim</div> <br>
+
+<input type="text" onkeydown="alert('Você pressionou uma tecla!')"> <br>
+
+<input type="text" onchange="alert('O Valor mudou!')"> <br>
+
+<foo id="elementoInvalido" class="exemplo"></foo>
+
+</html>
