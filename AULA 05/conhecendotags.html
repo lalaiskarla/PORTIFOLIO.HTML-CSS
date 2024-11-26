@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <base href="http://www.somedomain.com/someDirectory/">
+    <style>
+        table{
+            border: 1px solid black;
+        }
+    </style>
 
 </head>
 <body>
@@ -38,6 +43,53 @@
 
 <button  formtarget="">texto</button>
 
-<h2>Tag <code><</code>canvas<code>></code>:</h2>
+<h2>Tag <code><</code>caption<code>></code>:</h2>
+    <table>
+        <caption>Lista do mercado</caption>
+        <tr>
+            <td>Produto</td>
+            <td>Quantidade</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>1</td>
+        </tr>
+
+    </table>
+
+<br>
+
+
+
+
+
+    <input type="text" list="opcoes">
+        <datalist id="opcoes">
+            <option value="HTML">HTML</option>
+            <option value="JavaScript">JavaScript</option>
+        </datalist>
+    </input>
+
+    <form action="fieldsetdemo/">
+
+        <fieldset>
+            <legend>Personal details</legend>
+            <label for="yourname">Your name:</label> <input name="yourname" id="yourname">
+            <label for="yourage">Your age:</label> <input type="number" name="yourage" id="yourage">
+        </fieldset>
+    
+        <fieldset>
+            <legend>Your address</legend>
+            <label for="housenumber">House number:</label> <input type="number" name="housenumber" id="housenumber">
+            <label for="street">Street:</label> <input name="street" id="street">
+            <label for="postcode">Zip code / post code:</label> <input name="postcode" id="postcode">
+        </fieldset>
+    
+        <input type="submit">
+    
+    </form>
+    
+
+</script>
 </body>
 </html>
