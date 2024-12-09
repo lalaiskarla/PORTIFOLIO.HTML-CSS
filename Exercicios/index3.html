@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#esportes">Esportes</a></li>
+            <li><a href="#noticias">Notícias</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Bem-vindo ao Mundo dos esportes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus delectus, assumenda alias eos tempora quam sunt vero, aliquid ratione, laboriosam ullam tenetur veniam? Quis, tempore. Labore itaque enim perspiciatis hic?</p>
+        <h2>Principais esportes do Brasil</h2>
+        <ul>
+            <li><mark>Futebol</mark></li>
+            <li>Vôlei</li>
+            <li>Handball</li>
+        </ul>
+        <h3>Mapa interativo</h3>
+        <img src="imagens/mapadosesportes.png" alt="Mapa dos esportes" usemap="#esportesmap">
+        <map name="esportesmap">
+            <area shape="rect" coords="34,44,270,350" alt="Futebol" href="https://pt.wikipedia.org/wiki/Futebol">
+            <area shape="circle" coords="500,100,50" alt="Voleibol" href="https://pt.wikipedia.org/wiki/Voleibol">
+            <area shape="poly" coords="70,20,250,70,180,200" alt="Handball" href="https://pt.wikipedia.org/wiki/Andebol">
+        </map>
+        <h3>Progresso do Campeonato</h3>
+        <label for="Campeonato">Progresso do Campeonato de Futebol:</label>
+        <meter id="Campeonato" min="0" max="100" value="50" low="20" high="80" optimum="50">75%</meter>
+    </main>
+</body>
+</html>
