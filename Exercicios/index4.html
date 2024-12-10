@@ -7,28 +7,43 @@
 </head>
 <body>
     <p>Parágrafo de introdução da pagína</p>
+    
+    <h2>Lista de tarefas</h2>
     <ol>
-        <legend>Lista de tarefas</legend>
         <li>Academia</li>
         <li>Trabalhar</li>
         <li>Estudar</li>
     </ol>
 
-    <select name="Frutas Tropicais" id="Frutas Tropicais" >
-        <option value="Abacaxi">Abacaxi</option>
-        <option value="Açaí">Açaí</option>
-        <option value="Acerola">Acerola</option>
+    <select >
+        <outgroup label="Frutas Tropicais">
+            <option value="Abacaxi">Abacaxi</option>
+            <option value="Açaí">Açaí</option>
+            <option value="Acerola">Acerola</option>
+        </outgroup>
     </select>
-    <select name="Frutas Vermelhas" id="Frutas Vermelhas" >
-        <option value="Morango">Morango</option>
-        <option value="Melancia">Melancia</option>
-        <option value="Cereja">Cereja</option>
+    <select >
+        <outgroup label="Frutas Vermelhas">
+            <option value="Morango">Morango</option>
+            <option value="Melancia">Melancia</option>
+            <option value="Cereja">Cereja</option>
+        </outgroup>
     </select>
+
     <form oninput="c.value = parseInt(a.value) + parseInt(b.value)">
          <input type="range" id="a" value="0" min="0" max="10">
          +
         <input type="number" id="b" value="0">
+        =
         <output name="c" for="a b">0</output>
     </form>
+<pre>texto</pre>
+<noscript>
+    <p>O JavaScript está desabilitado</p>
+</noscript>
+<script>
+    alert('Hello World!');
+
+</script>
 </body>
 </html>
