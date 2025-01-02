@@ -1,0 +1,59 @@
+.responsivo-container{
+    display: flex;
+    justify-content: flex-start;
+
+
+
+
+}
+.cont1{
+    background-color: rgb(167, 19, 0);
+    width: 50%;
+    height: 100vh;
+    margin: 2px;
+
+}
+
+.cont2 {
+    background-color: rgb(221, 221, 15);
+    width: 50%;
+    height: 100vh;
+    margin: 2px;
+
+}
+
+.cont3{
+    background-color: rgb(39, 221, 15);
+    width: 50%;
+    height: 100vh;
+    margin: 2px;
+
+}
+.cont4{
+    background-color: rgb(15, 180, 221);
+    width: 50%;
+    height: 100vh;
+    margin: 2px;
+
+}
+.cont5{
+    background-color: rgb(187, 15, 221);
+    width: 50%;
+    height: 100vh;
+    margin: 2px;
+
+}
+.cont6{
+    background-color: rgb(221, 15, 101);
+    width: 50%;
+    height: 100vh;
+    margin: 2px;
+
+}
+.cont7{
+    background-color: rgb(221, 15, 15);
+    width: 50%;
+    height: 100vh;
+    margin: 2px;
+
+}
