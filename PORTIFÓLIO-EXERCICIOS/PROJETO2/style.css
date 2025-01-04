@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+}
+body , html{
+    color: #ffffff;
+    background-color: #2b1821;
+    font-family: "Roboto", serif;
+    font-style: normal;
+   
+}
+
+.introducao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.introducao__blocotexto{
+    max-width: 750px;
+
+}
+.introducao__slogan{
+    padding: 50px 0px;
+}
+.introducao__titulo{
+    
+    font-weight: 700;    
+    font-size: 100px;
+}
+
+.introducao__texto{
+    font-size: 40px;
+    margin: 65px 0px;
+}
+.introducao__link{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;  
+    background-color: #fd288d;
+    padding: 17px 150px;
+    border-radius: 100px;
+    font-size: 35px;
+    text-align: justify;
+
+   }
+.secaoum{
+    background-image: url(imagens/fundo2.png);
+    color: #fd288d;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.secaoum__texto{
+    height: 100vh;
+    padding: 0px 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.secaoum__texto__titulo{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+.secaoum__texto__texto{
+    font-size: 30px;
+}
+
+.secaodois{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    gap: 20px;
+
+}
+.secaodois__titulo{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 50px 0px;
+    color: #fd288d;
+    margin-bottom: 50px;
+}
+.secaodois__div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    gap: 40px;
+}
+.secaodois__fig{
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+}
+.secaodois__fig__img{
+    
+    background-color: #02D772;
+    border-radius: 50%;
+    padding: 20%;
+    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg);
+    width: 100px;
+    margin: 30px 0;
+}
+.secaodois__fig__caption{
+    font-size: 30px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    border-radius: 24px;
+    width: 400px;
+    height: 150px;
+    padding: 15px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+
+
+}
+
+
