@@ -1,90 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
-
-}
-body , html{
-    color: #ffffff;
-    background-color: #2b1821;
     font-family: "Roboto", serif;
-    font-style: normal;
-   
 }
 
 .introducao{
+    color: #ffffff;
+    font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    padding: 0px 200px;
+    background-color: #2b1821;
+   
 }
 
-.introducao__blocotexto{
-    max-width: 750px;
+.introducao__bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;    
+  
+}
 
-}
-.introducao__slogan{
-    padding: 50px 0px;
-}
-.introducao__titulo{
-    
-    font-weight: 700;    
+
+.introducao__bloco__titulo{
+    font-weight: 700;
     font-size: 100px;
 }
-
-.introducao__texto{
+.introducao__bloco__texto{
     font-size: 40px;
-    margin: 65px 0px;
 }
-.introducao__link{
+
+.link_info{
     text-decoration: none;
     color: #ffffff;
-    font-weight: 700;  
+    font-weight: 700;
     background-color: #fd288d;
-    padding: 17px 150px;
+    width: 50%;
+    padding: 17px;
     border-radius: 100px;
     font-size: 35px;
-    text-align: justify;
+    text-align: center;
+}
 
-   }
-.secaoum{
-    background-image: url(imagens/fundo2.png);
+.pageescuro{
     color: #fd288d;
     height: 100vh;
     background-size: cover;
-
-}
-
-.secaoum__texto{
-    height: 100vh;
-    padding: 0px 500px;
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 500px;
 }
-.secaoum__texto__titulo{
+
+#fundoum{
+    background-image: url(imagens/fundo2.png);
+
+}
+
+
+.pageescuro__titulo{
     font-size: 60px;
     font-weight: bold;
     padding: 30px 0px;
 }
-.secaoum__texto__texto{
+.pageescuro__texto{
     font-size: 30px;
 }
 
-
-
-.secaodois{
+.pagerosa{
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;    
-    gap: 20px;
-
+    padding: 0px 200px;
+    background-color: #2b1821;
 }
-.secaodois__titulo{
+
+.pagerosa__titulo{
+    font-family: "Roboto", serif;
     text-align: center;
     font-size: 60px;
     font-weight: bolder;
@@ -92,30 +88,18 @@ body , html{
     color: #fd288d;
     margin-bottom: 50px;
 }
-.secaodois__div{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    max-width: 1200px;
-    gap: 40px;
-}
-.secaodois__fig{
-    display:flex;
-    flex-direction: column;
-    align-items: center;  
-    justify-content: center;
-}
-.secaodois__fig__img{
-    
+
+.pagerosa_icone{
     background-color: #02D772;
     border-radius: 50%;
-    padding: 20%;
+    padding: 10%;
     filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg);
     width: 100px;
     margin: 30px 0;
+
 }
-.secaodois__fig__caption{
+
+.pagerosa_descricao{
     font-size: 30px;
     border-style: solid;
     border-width: 0.5px;
@@ -123,14 +107,7 @@ body , html{
     border-radius: 24px;
     width: 400px;
     height: 150px;
-    padding: 15px;
+    padding: 4%;
     text-align: center;
-    display:flex;
-    flex-direction: column;
-    align-items: center;  
-    justify-content: center;
-
-
+    color: white;
 }
-
-
