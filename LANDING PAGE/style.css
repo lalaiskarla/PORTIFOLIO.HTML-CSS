@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte-primaria: "Open Sans", serif;
+    --fonte-secundaria:  "Public Sans", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", serif;
+    height: 100vh;
+    /* overflow: hidden; >>> tira a barra de rolagem */
+    color: #ffffff;
+
+
+}
+
+
+
+
+video{
+    position: fixed; /* Fixa o vídeo como fundo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo preencher a tela */
+    z-index: -1; /* Coloca o vídeo atrás de outros elementos */
+}
+
+
+.descricaodosite{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:  0 3%;
+}
+
+
+
+p {
+    font-size: 40px;
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+
+   z-index: 1; /* Garante que o conteúdo fique acima do vídeo */
+}
+
+h1{
+    font-family: var(--fonte-secundaria);
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+
+h2{
+    font-family: var(--fonte-primaria);
+    font-size: 40px;
+    font-weight: 100;
+
+
+}
+
+a{
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    font-size: 40px;
+    color: #000000;
+    background-color: #92cd4d;
+    width: 30%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.historias{
+    background-color: #e6e6e6;
+    height: 100vh;
+    width: 100vw;
+    color: #000000;
+    padding: 3%;
+}
+
+.historias__titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 80px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.historias__bloco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.historias_texto{
+    font-family: var(--fonte-primaria);
+    font-size: 30px;
+    font-weight: 100;
+    width: 50%;
+}
+
+
+
+.historias__foto{
+    width: 40%;
+    height: 57%;
+    border-radius: 6% 6% 0 0;
+
+}
+
+.historias__descricaofoto{
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #92cd4d;
+    width: 40%;
+    padding: 2% 0 ;
+    font-size: 30px;
+
+
+}

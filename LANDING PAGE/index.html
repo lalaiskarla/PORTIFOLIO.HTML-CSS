@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All for Education Group</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <video src="assets/videofundodetela.mp4" type="video/mp4" autoplay loop ></video>
+    <div class="home">
+
+        <video autoplay loop muted>
+            <source src="assets/videofundodetela.mp4" type="video/mp4">
+        </video>
+        <!--Alguns navegadores bloqueiam a reprodução automática de vídeos com som. Como não há muted na tag <video>, o navegador pode estar bloqueando.-->
+        <div class="descricaodosite">
+            <p>Grupo Todos pela Educação</p>
+            <h1>Desbloquear o potencial colmatando o fosso educativo.</h1>
+            <h2>Junte-se a nós em nossa causa enquanto apoiamos a próxima geração de alunos hoje.</h2>
+            <a href="#">Doe aqui</a>
+        </div>
+    </div>
+
+    <div class="historias">
+        <h2 class="historias__titulo">Histórias de impacto</h2>
+        <div class="historias__bloco">
+            <p class="historias_texto">Ao fornecer recursos essenciais, como livros, material escolar, tecnologia escolar e aulas particulares após as aulas, capacitamos os alunos de comunidades carentes a atingir seu potencial máximo e a esperar um amanhã brilhante.</p>
+            <div >
+                <img src="assets/homem.jpg" alt="Foto Charlie M." class="historias__foto">
+                <p class="historias__descricaofoto">"No momento crucial de necessidade, você apoiou a mim e à minha família. Sua ajuda é inestimável e seu compromisso em ajudar pessoas como eu é profundamente apreciado. Obrigado por tocar nossas vidas." <br> <strong>Charlie M.</strong></p>
+            </div>
+            <div >
+                <img src="assets/mulher.jpg" alt="Foto Parker G." class="historias__foto">
+                <p class="historias__descricaofoto">"Estou muito grato pelo apoio fornecido por esta organização. Sua dedicação e generosidade fizeram uma diferença significativa em minha vida. Obrigado por tudo o que você faz."            <br> <strong>Parker G.</strong></p>
+            </div>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
