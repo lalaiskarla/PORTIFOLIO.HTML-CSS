@@ -1,0 +1,36 @@
+.circulo{
+    --variavel: 100px;
+}
+
+.quadrado{
+    --variavel: 50px;
+}
+
+body{
+    /*  display: flex;
+    gap:50px; */
+
+
+}
+.circulo{
+    background-color: #ff0000;
+    width: var(--variavel);
+    height: 439px;
+
+}
+
+.quadrado{
+    width: var(--variavel);
+    height: 439px;
+    background-color: pink;
+
+
+}
+
+p {
+    color: pink;
+}
+
+p{
+    color: 16px;
+}
