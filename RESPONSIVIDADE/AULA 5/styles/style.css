@@ -32,6 +32,7 @@ body{
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    text-transform: capitalize; // deixar o texto com letra maiuscula. 
 }
 .apresentacao{
     padding: 5% 15%;
@@ -91,7 +92,7 @@ body{
 }
 
 .apresentacao__imagem{
-    width: 50%;
+    max-width: 50%;
 
 }
 .rodape{

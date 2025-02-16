@@ -146,7 +146,7 @@ body {
 .acao{
     background-color: #33477d;
     color: #ffffff;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     padding: 1%;
     display: flex;
@@ -259,7 +259,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     padding: 3%;
   
@@ -315,10 +315,11 @@ body {
 }
 
 .contato{
-    height: 100vh;
-    width: 100vw;    
+    height: 100%;
+    width: 100%;    
     display: flex;
     font-family: var(--fonte-secundaria);
+    background-color: black;
 
 
 }
@@ -326,7 +327,7 @@ body {
 .contato__bloco{
    background-color: #000000;
    padding: 5% 5% 5% 5%;
-   width: 60%;
+   width: 100%;
  
 
 }
@@ -351,3 +352,160 @@ body {
     margin: 0 ;
 
 }
+@media (max-width: 720px) {
+
+    .home {
+        height: 100%;
+        margin: 0 3%;
+    }
+
+    .video__home {
+        .video__home {
+            width: 100%;
+            height: auto; /* Faz o vídeo ajustar proporcionalmente */
+        }
+    }
+    
+    .descricaodosite{
+        width: 100%;
+        padding: 0;
+    
+    }
+
+
+    .descricaodosite__texto {
+        font-size: 1.5rem;
+        margin: 5% 0;
+    }
+
+    .descricaodosite__titulo {
+        font-size: 5rem;
+        margin: 0;
+
+    }
+
+    .descricaodosite__titulo__subtitulo{
+        font-size: 2.5rem;
+    
+    }
+
+
+    .botao__home {
+        font-size: 1.8rem;
+        width: 26%;
+        height: 5%;
+        margin: 0 0 3% 0;
+        
+    }
+
+
+    .historias {
+        padding: 1%;
+        height: 100%;
+    }
+
+    .historias__bloco {
+        flex-direction: column;
+    }
+    
+    .historias__titulo {
+        font-size: 3.5rem;
+        padding: 2% 15% 0 15%;
+
+    }
+
+    .historias__texto {
+        font-size: 1rem;
+        margin: 0;
+     }
+
+     .historias__depoimento {
+        height: auto; /* Permite que a altura do bloco ajuste de acordo com o conteúdo */
+        width: 100%; /* Ajusta o tamanho para telas menores */
+
+    }
+
+    .historias__foto{
+        width: 100%; /* Ajusta a imagem para não ultrapassar a tela */
+        height: auto;
+    
+    }
+
+    .historias__depoimento__texto {
+        font-size: 1rem;
+    }
+
+    .historias__depoimento__nome{
+        font-size: 1rem;    
+    }
+
+ 
+    .acao__titulo {
+        font-size: 4rem;
+        margin: 3% 0 1% 0;
+ 
+    }
+
+    .acao__bloco {
+        flex-direction: column;
+    }
+
+
+    .acao__bloco__texto {
+        font-size: 1.7rem;
+        text-align: left;
+    }
+
+    .botao__acao{
+        font-size: 2rem;
+        width: 30%;    
+    }
+    .envolvimento{
+        flex-direction: column;
+    }
+
+    .envolvimento__foto{
+        max-width: 26%;
+    }
+
+
+    .envolvimento__titulo {
+        font-size: 2.31rem;
+        margin: 2%;
+
+    }
+    
+    .envolvimento__legenda {
+        font-size: 1.7rem;
+        margin: 0 24%;
+    }
+
+    .missao__foto {
+        height: 35%;
+    }
+
+    .missao__bloco {
+        flex-direction: column;
+    }
+    
+    .missao__artigo__titulo {
+        font-size: 3.4rem;
+    }
+    
+    .missao__artigo__texto {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+
+    .contato{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .video__contato{
+        width: 70%;
+    
+    }
+}
+
+
