@@ -500,8 +500,9 @@ body {
     .contato{
         flex-direction: column;
         text-align: center;
-    }
+     }
 
+ 
     .video__contato{
         width: 70%;
     
