@@ -1,5 +1,4 @@
-
-<img src="imagens/combo.png" alt="O combo+ é a junção do alura+ e o alura lingua" align="center">
-<h1> Página Alura Plus </h1>
-<p>Esse projeto foi criado através de estudos na Alura.</p>
+![O combo+ é a junção do alura+ e o alura lingua>](<imagens/combo.png>)
+## Página Alura Plus
+Esse projeto foi criado através de estudos na Alura.
 
