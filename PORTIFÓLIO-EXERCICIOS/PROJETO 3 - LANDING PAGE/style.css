@@ -29,6 +29,13 @@ body::selection{
     padding:  0 3%;
 }
 
+a:hover{
+    background-color:  #91cd4da4;
+}
+
+a:active{
+    background-color:  #1e201ea4;
+}
 
 
 .video__home{
