@@ -1,0 +1,25 @@
+.banner{
+    margin: 6rem 20rem;
+    text-align:  center;
+}
+
+.banner__destaque{
+    font-weight: 600;
+    color: var(--vermelho);
+
+}
+
+.banner__titulo{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cinza-escuro);
+    margin: 2rem;
+}
+
+.banner__texto{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+    line-height: 30px;
+    
+}
