@@ -1,7 +1,9 @@
 @import url(styles/nav.css);
 @import url(styles/banner.css);
 @import url(styles/metricas.css);
+@import url(styles/talentos.css);
 @import url(styles/vagas.css);
+
 
 
 
@@ -17,6 +19,7 @@
     --vermelho: #8E2424;
     --salmao: #F9f4f4;
     --cinza-escuro: #101828;
+    --cinza-borda:#EAECF0;
 
 }
 

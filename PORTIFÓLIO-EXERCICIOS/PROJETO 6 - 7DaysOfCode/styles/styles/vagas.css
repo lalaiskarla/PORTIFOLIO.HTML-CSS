@@ -1,34 +1,41 @@
 .vagas{
-    text-align: center;
-    padding: 5em 0;
+    padding: 2em 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
 }
-.vagas__link{
-    text-decoration: none;
-    color: var(--vermelho);
-    background-color: var(--salmao);
-    padding: 0.5em 0.7em;
-    display: inline-block;
-    border-radius: 1rem;
+.vagas__area, .vagas-titulo {
     font-weight: 500;
-    font-size: 14px;
-}
-
-.vagas__titulo{
-    font-weight: 600;
-    font-size: 36px;
     color: var(--cinza-escuro);
-    margin: 1em;
+
 }
 
-.vagas__texto{
-    font-weight: 400;
+.vagas__area{
     font-size: 20px;
+    margin-bottom: 1.5em;
+
+}
+
+.vagas-titulo{
+    font-size: 18px;
+    margin-bottom: 2.3em;
+
+
+}
+.vagas-informacoes{
+    font-weight: 500;
     color: var(--cinza-claro);
-}
 
-.vagas__imagem{
-    width: 90%;
-    margin-top: 5em;
 
 }
+.vagas__container{
+    border: 1px solid var(--cinza-borda);
+    border-radius:16px;
+    padding: 24px;
+    margin-bottom: 1.5em;
+}
 
+.vagas-informacoes{
+    display: flex;
+    gap: 24px;
+}
