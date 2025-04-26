@@ -1,0 +1,34 @@
+.oportunidade{
+    background-color: var(--cinza-footer);
+    text-align: center;
+    padding: 5em;
+}
+
+.oportunidade__titulo{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cinza-escuro);
+}
+
+.oportunidade__texto{
+    font-size: 20px;
+    color: var(--cinza-claro);
+    margin: 2em 0;
+}
+
+.oportunidade__email{
+    border: 1px solid var(--cinza-borda);
+    padding: 1em 13em 1em 1em;
+    border-radius: 8px;
+}
+
+.oportunidade__email::placeholder, .oportunidade__rodape{
+    font-family: "Inter";
+    color: var(--cinza-claro);
+
+}
+
+.oportunidade__rodape{
+    margin-top: 2em;
+
+}

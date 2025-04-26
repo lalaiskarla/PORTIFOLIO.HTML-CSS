@@ -3,6 +3,10 @@
 @import url(styles/metricas.css);
 @import url(styles/talentos.css);
 @import url(styles/vagas.css);
+@import url(styles/colaborador.css);
+@import url(styles/oportunidade.css);
+
+
 
 
 
@@ -20,6 +24,7 @@
     --salmao: #F9f4f4;
     --cinza-escuro: #101828;
     --cinza-borda:#EAECF0;
+    --cinza-footer: #F9FAFB;
 
 }
 

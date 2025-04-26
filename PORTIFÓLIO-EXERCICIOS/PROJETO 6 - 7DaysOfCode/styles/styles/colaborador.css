@@ -1,0 +1,45 @@
+.colaborador{
+    text-align: center;
+    
+}
+
+.colaborador__container{
+    background-color: var(--salmao);
+    padding: 4em;
+    margin: 5em;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+}
+
+.colaborador__titulo{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vermelho);
+
+}
+
+.colaborador__depoimento{
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--cinza-escuro);
+    margin: 1em 7em;
+    line-height: 44px;
+}
+
+.colaborador__imagem{
+    width: 56px;
+}
+
+.colaborador__nome{
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin: 1em 0;
+}
+
+.colaborador__cargo{
+    color: var(--cinza-claro);
+    font-size: 14px;
+
+}
