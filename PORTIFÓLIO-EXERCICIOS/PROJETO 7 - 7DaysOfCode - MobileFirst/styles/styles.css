@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte-principal: "Montserrat";
+    --branco: #FFFFFF;
+    --preto: #333333;
+    --fundo-azulado: #f4f3fa;
+    --cinza-escuro: #464646;
+    --cinza-claro: #A3A3A3;
+    --laranja: #FFB050;
+    --azul: #4894FF;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    background-color: var(--fundo-azulado);
+    box-sizing: border-box;
+
+
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+}
+
+.cabecalho__hora{
+    color: var(--preto);
+    font-size: 0.87rem;
+}
+
+.cabecalho__container{
+    display: flex;
+
+    gap: 16px;
+}
+
+.consultas-medico{
+    padding-bottom: 0.5em;
+
+}
+
+.medico{
+    display: flex;
+    flex-direction: row;
+    padding: 2em 1em;
+    gap: 12px;
+    align-items: center;
+}
+
+.medico__imagem{
+    border-radius: 50%;
+    width: 57px;
+}
+.medico-informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.medico__nome{
+    font-weight: 700;
+    font-size: 1.37rem;
+    color: var(--cinza-escuro);
+}
+
+.medico__consultas{
+    font-size: 0.87rem;
+    color: var(--cinza-claro);
+}
+
+.consulta__dados{
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 8px;
+    
+
+}
+
+
+.consulta-data{
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    margin-left: 1em;
+}
+
+.container-cima{
+    padding: 1em 1em 1em 1em;
+    border-bottom: 1px solid var(--cinza-claro);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-baixo{
+    background-color: var(--branco);
+    padding: 1em 1em 1em 1em;
+
+}
+
+.container-link{
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 1em;
+}
+
+.cliente-imagem{
+    width: 32px;
+    border-radius: 16px;
+    margin-bottom: 0.3em;
+}
+
+.container-cliente-consulta{
+    padding: 0 6em 0 1em;
+    width: 60%;
+
+
+
+}
+
+.container-tipo-consulta{
+    display: flex;
+    gap: 0.5em;
+}
+.container-grande{
+    border-radius: 8px;
+    background-color: var(--branco);
+    margin: 1em;
+}
+
+.cliente-nome{
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 0.87rem;
+    line-height: 160%;
+    margin-bottom: 0.3em;
+
+}
+
+.consulta-tipo{
+    font-size: 0.75rem;
+    color: var(--cinza-claro);
+}
+
+.cliente-horario{
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: var(--cinza-escuro);
+}
+
+.cliente-video{ 
+    background-color: var(--laranja);
+    color: var(--branco);
+    width: 40%;
+    text-align: center;
+    display: block;
+}
+
+.cliente-voz{
+    border: 1px solid #ECECEC;
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 0.87rem;
+    width: 40%;
+    text-align: center;
+    display: block;
+}
+
+.botao{
+    text-decoration: none;
+    padding: 1em ;
+    border-radius: 8px;
+}
+
+.cliente-endereço{
+    background-color: var(--azul);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.rodape{
+    position: fixed;
+    bottom: 0px;
+    background-color: var(--branco);
+    border-top-right-radius: 16px;
+    padding: 1em ;
+    width: 93vw;
+    
+    
+   
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Faz todos os <li> terem mesma altura */
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
+}
+
+.rodape__lista__link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    }
+
+.rodape__lista__item {
+    flex: 1; /* Faz cada item ocupar o mesmo espaço */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+
+}
+
+
+.rodape__lista__imagem{
+    width: 24px;
+    margin-bottom: 4px; /* espaço entre a imagem e o texto */
+
+}
+
+.rodape__lista__texto{
+    font-size: 0.75rem;
+
+}
+
+.rodape__lista__link:hover{
+    color: var(--azul);
+}
+
+.botaoflutuante{
+    position: fixed;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.cliente-chat{
+    cursor: pointer;
+}
+
+
+.botaoflutuante-adicionar{
+    bottom:  70px;
+}
+
+.botaoflutuante-camera{
+    bottom: 140px;
+}
+
+.botaoflutuante-local{
+    bottom: 210px;
+}
+
+.botaochecked:checked ~ .lista-menu{
+    display: block;
+}
+
+.lista-menu,.botaochecked{
+    display: none;
+
+}
+
+@media screen and (min-width: 600px){
+    .card-cliente{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 13px; 
+    }
+
+    
+    .botao{
+        padding: 1em 0.8em;
+    }
+
+    .rodape{
+        position: fixed;
+        top: 0;
+        left:0;
+        height: 100vh;
+        width: 6rem;
+        display: flex;
+        flex-direction: column; 
+        align-items: end;    
+        padding-top: 1rem ;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        z-index: 1000;
+               
+    }
+    
+    .rodape__lista{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+}
+    
+    
+    
+    .rodape__lista__link{
+        flex-direction: row;
+        justify-content: end;
+        gap: 0.6rem;
+        }
+
+        main, header{
+            position: relative;
+            left: 120px;
+        }
+  
+
+ 
+}
+
+@media screen and (min-width: 1728px){
+    .medico__imagem{
+        width: 96px;
+    }
+
+    
+    .medico__nome{
+        font-size: 1.93rem;
+    }
+    
+    .medico__consultas{
+        font-size: 1.12rem;
+    }
+
+
+    .card-cliente{
+        gap: 20px;
+ 
+    }
+}
+
+    
+
+
+
+
+
