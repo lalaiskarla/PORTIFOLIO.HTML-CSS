@@ -1,0 +1,73 @@
+.categorias__lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "roupas roupas decoracao"
+    "canecas acessorios acessorios";
+    gap:24px;
+    list-style-type:none;
+
+}
+
+.categorias__lista__item-roupas{
+    grid-area: roupas;
+}
+
+.categorias__lista__item-decoracao{
+    grid-area: decoracao;
+}
+
+.categorias__lista__item-canecas{
+    grid-area: canecas;
+}
+
+.categorias__lista__item-acessorios{
+    grid-area: acessorios;
+}
+
+
+.categorias__lista__item_container img{
+    height: 331px;
+    width: 100%;
+    object-fit: contain; /*  o que é ?  R:  como essa imagem será preenchida dentro do container dela, ele vai diminuir de modo que seja preenchida em relação ao tamanho do elemento pai sem ficar distorcida. */background-color: var(--cor-links);
+
+
+}
+
+.categorias__lista__item {
+    box-shadow: 0px 4px 24px 0px #7B7B7B26;
+}
+
+.categorias{
+    padding: 80px 12.5%;
+}
+
+.categorias__titulo{
+    color:var(--cor-texto-principal);
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;  
+}
+
+.categorias__texto{
+    font-family: var(--fonte-texto);
+    text-align: center;
+    margin: 40px 0;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+.categorias__lista__item_titulo{
+    color:var(--cor-texto-principal);
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 37.2px;
+    padding: 16px 0;
+
+}
+

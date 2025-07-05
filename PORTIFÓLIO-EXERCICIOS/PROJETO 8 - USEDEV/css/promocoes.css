@@ -1,0 +1,44 @@
+.promocoes{
+    padding: 32px 12.5%;
+}
+
+.promocoes__titulo{
+    font-family: var(--fonte-titulo);
+    color:var(--cor-texto-principal);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.promocoes__lista{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    list-style-type: none;
+    gap:26.67px;
+}
+
+.promocoes__lista__item__descricao h4{
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.promocoes__lista__item__descricao p{
+    font-family: var(--fonte-texto);
+    font-size: 31px;
+    font-weight: 600;
+}
+.promocoes__lista__item__descricao{
+    background-color: var(--cor-texto);
+    color: var(--cor-links);
+    padding: 16px 24px;
+}
+
+.promocoes__lista__item{
+    box-shadow: 0px 4px 24px 0px #8438a92e;
+}
+
+
+.promocoes__lista__item img{
+    width: 100%;
+}
+
