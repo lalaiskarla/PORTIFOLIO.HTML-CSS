@@ -84,4 +84,14 @@
     .cabecalho__nav__list__item-input{
         grid-area: input;
     }
+
+}
+
+@media screen and (max-width: 488px) {
+    .cabecalho__nav__list{
+        grid-template-areas: 
+        "menu logo login carrinho"
+        "input input input input input";
+        grid-template-columns: 1fr 2fr .5fr .5fr .5fr;
+    }
 }

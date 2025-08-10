@@ -145,14 +145,114 @@
     </section>
     <section class="newsletter">
         <h3 class="newsletter__titulo">Inscreva-se para ganhar descontos!</h3>
-        <p>Cadastre seu email, receba novidades e descontos imperdíveis antes de todo mundo!</p>
+        <p class="newsletter__texto">Cadastre seu email, receba novidades e descontos imperdíveis antes de todo mundo!</p>
         <div class="newsletter__container">
-            <input type="text" placeholder="Digite seu melhor endereço de email">
-            <button>Inscrever</button>
+            <input type="email" name="email" id="email" placeholder="Digite seu melhor endereço de email" class="newsletter__container__input">
+            <button class="newsletter__container__botao">Inscrever</button>
+        </div>
+    </section>
+    <section class="rodape">
+        <div class="rodape__linha">
+            <div class="rodape__coluna rodape__logo">
+                <img src="assets/icons/logo-verde.svg" alt="Logo use dev">
+                <p class="rodape__texto">Hora de abraçar seu lado geek!</p>
+            </div>
+            <div class="rodape__coluna">
+                <h5 class="rodape__titulo">Funcionamento</h5>
+                <ul class="rodape__lista">
+                    <li class="rodape__lista__item">Segunda a Sexta - 8h às 18h</li>
+                    <li class="rodape__lista__item">
+                        <a href="mailto:sac@usedev.com.br" class="rodape__lista__link">sac@usedev.com.br</a>
+                    </li>
+                    <li class="rodape__lista__item">
+                        <a href="tel:+550800541320" class="rodape__lista__link">0800 541 320</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="rodape__coluna">
+                <h5 class="rodape__titulo">Institucional</h5>
+                <nav class="rodape__nav">
+                    <ul class="rodape__lista">
+                        <li class="rodape__lista__item">
+                            <a href="#"  class="rodape__lista__link">Sobre nós</a>
+                        </li>
+                        <li class="rodape__lista__item">
+                            <a href="#" class="rodape__lista__link">Contato</a>
+                        </li>
+                        <li class="rodape__lista__item">
+                            <a href="#" class="rodape__lista__link">Política de Privacidade</a>
+                        </li>
+                        <li class="rodape__lista__item">
+                            <a href="#" class="rodape__lista__link">LGPD - Lei de proteção de dados</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="rodape__coluna">
+                <h5 class="rodape__titulo">Informações</h5>
+                <nav class="rodape__nav">
+                    <ul class="rodape__lista">
+                        <li class="rodape__lista__item">
+                            <a href="#" class="rodape__lista__link">Entregas</a>
+                        </li>
+                        <li class="rodape__lista__item">
+                            <a href="#" class="rodape__lista__link">Garantia</a>
+                        </li>
+                        <li class="rodape__lista__item">
+                            <a href="#" class="rodape__lista__link">Trocas e devoluções</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
+        <div class="rodape__linha">
+                <div class="rodape__coluna">
+                    <h5 class="rodape__titulo">Formas de Pagamento</h5>
+                    <ul class="rodape__lista-cartao">
+                        <li class="rodape__lista-cartao-item">
+                            <img src="assets/icons/icon-cartao-visa.svg" alt="Visa">
+                        </li>
+                        <li class="rodape__lista-cartao-item">
+                            <img src="assets/icons/icon-cartao-master.svg" alt="Master">
+                        </li>
+                        <li class="rodape__lista-cartao-item">
+                            <img src="assets/icons/icon-cartao-elo.svg" alt="Elo">
+                        </li>
+                        <li class="rodape__lista-cartao-item">
+                            <img src="assets/icons/icon-cartao-diners.svg" alt="Diners">
+                        </li>
+                        <li class="rodape__lista-cartao-item">
+                            <img src="assets/icons/icon-pix.svg" alt="Pix">
+                        </li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h5 class="rodape__titulo">Siga nossas redes:</h5>
+                    <ul class="rodape__lista-redes-sociais">
+                        <li class="rodape__lista-redes-sociais-item">
+                            <a href="#" class="rodape__lista__link">
+                                <img src="assets/icons/whatsapp.svg" alt="Link Whatsapp da loja">
+                            </a>
+                        </li>
+                        <li class="rodape__lista-redes-sociais-item">
+                            <a href="#" class="rodape__lista__link">
+                                <img src="assets/icons/instagram.svg" alt="Link Instagram da loja">
+                            </a>
+                        </li>
+                        <li class="rodape__lista-redes-sociais-item">
+                            <a href="#" class="rodape__lista__link">
+                                <img src="assets/icons/tiktok.svg" alt="Link TikTok da Loja">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
     </section>
 </body>
+<footer>
+    <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+</footer>
     
 
 </html>

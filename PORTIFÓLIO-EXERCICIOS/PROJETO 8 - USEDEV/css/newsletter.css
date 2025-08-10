@@ -1,11 +1,9 @@
 .newsletter{
+    padding: 40px 12.5%;
     background-color: var(--cor-destaque-secundario);
     color: var(--cor-destaque-terciario);
     text-align: center;
-    padding: 40px 12.5%;
     margin: 0 auto;
-
-
 }
 
 .newsletter, ::placeholder, button{
@@ -13,12 +11,19 @@
     font-size: 20px;
 }
 
-.newsletter h3{
+.newsletter__titulo{
     font-family: var(--fonte-titulo);
     font-weight: 700;
     font-size: 31px;
     line-height: 37.2px;
+    margin-bottom: 24px;
 
+}
+
+.newsletter__texto{
+    margin-bottom: 32px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 
@@ -30,28 +35,29 @@
 
 }
 
-.newsletter__container input{
+.newsletter__container__input{
+    width: 100%;
+    grid-column: 1;
     padding: 16px 24px;
-    background-color: transparent;
     border-radius: 32px;
+    background-color: transparent;
     border: 2px solid #090129;
     line-height: 24px;
     font-weight: 400;   
     padding: 16px 24px;
     line-height: 24px;
     font-weight: 700;
-    border: none;
-    cursor: pointer;
-
-
 }
 
-.newsletter__container button {
+.newsletter__container__botao {
+    grid-column: 2;
     background-color: var(--cor-fundo-botao);
     color: var(--cor-de-fundo);
     font-weight: 700;
-    padding: 15px 24px;
+    padding: 16px 24px;
     border-radius: 32px;
+    border: none;
+    cursor: pointer;
 }
 
 .newsletter__container{
@@ -61,4 +67,19 @@
     gap: 16px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .newsletter__container {
+        display: inline;
+    }
+
+    .newsletter__container__input {
+        margin-bottom: 16px;
+    }
+
+    .newsletter{
+    padding: 40px 60px;
+
+}
+}
 

@@ -1,0 +1,147 @@
+.rodape{
+    background-color: var(--cor-links);
+    color: var(--cor-texto);
+    padding: 60px 12.5%;
+    font-family: var(--fonte-texto);
+}
+.rodape__linha{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+}
+
+.rodape__linha:last-child{
+    border-top: 1px solid var(--cor-destaque-secundario);
+    padding-top: 32px;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+}
+
+.rodape__coluna{
+    display: grid;
+}
+
+.rodape__texto{
+    color: var(--cor-destaque-secundario);
+
+}
+
+.rodape__titulo{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 16px;
+
+}
+
+.rodape__lista, .rodape__lista-cartao, .rodape__lista-redes-sociais{
+    list-style-type: none;
+}
+
+.rodape__lista-cartao, .rodape__lista-redes-sociais{
+    display: inline-grid;
+  
+
+}
+
+.rodape__lista-cartao{
+    grid-template-columns: repeat(5,auto);
+    gap: 16px;
+
+}
+
+
+.rodape__lista-redes-sociais{
+    grid-template-columns: repeat(3,auto);
+    justify-content: start;
+    gap: 8px;
+    align-items: center;
+
+}
+
+
+.rodape__lista__link{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+/*.rodape__lista-cartao, .rodape__lista-redes-sociais{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}*/
+
+
+footer p{
+    font-family: var(--fonte-texto);
+    color: var(--cor-links);
+    text-align: center;
+    padding:  35.5px 0;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .rodape__linha:first-child{
+        display: grid;
+        grid-template-areas: 
+        "logo logo logo"
+        "funcionamento institucional informacoes";
+        justify-content: space-evenly;
+        column-gap: 40px;
+        align-items: start;
+
+
+    }
+
+    .rodape__linha:first-child .rodape__coluna:nth-child(2){
+        grid-area: funcionamento;
+        margin-bottom: 24px;
+    }
+    .rodape__linha:first-child .rodape__coluna:nth-child(3){
+        grid-area: institucional;
+    }
+    .rodape__linha:first-child .rodape__coluna:nth-child(4){
+        grid-area: informacoes;
+        column-gap: none;
+
+    }
+    .rodape__linha:first-child .rodape__logo{
+        grid-area: logo;
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid var(--cor-destaque-secundario);
+
+
+
+    }
+
+    .rodape__logo img{
+    display: block; /* Faz a imagem ser um bloco */
+    margin: 24px auto; 
+    }
+
+   
+
+    .rodape__linha:last-child{
+        border: none;
+        padding-top: 32px;
+
+    }
+
+.rodape{
+    padding: 60px 10%;
+
+}
+
+}
+
+@media screen and (max-width: 488px){
+    .rodape{
+        padding: 60px 53px;
+
+    }
+}

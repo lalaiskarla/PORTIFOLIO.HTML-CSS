@@ -1,0 +1,23 @@
+
+.movie{
+    background-color: #141414;
+    color: white;
+    padding:  3rem;
+    font-family: var( --font-text);
+}
+
+.movie__list{
+    margin-top: 1rem;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 0.5rem;
+  
+
+}
+
+.movie__list-item{
+    background-size: cover;
+
+}
+

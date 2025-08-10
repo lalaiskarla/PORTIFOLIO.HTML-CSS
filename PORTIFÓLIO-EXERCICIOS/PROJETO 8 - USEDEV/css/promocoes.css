@@ -11,7 +11,7 @@
 }
 .promocoes__lista{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     list-style-type: none;
     gap:26.67px;
 }
@@ -42,3 +42,8 @@
     width: 100%;
 }
 
+@media screen and (max-width:768px){
+    .promocoes__titulo{
+        text-align: center;
+    }
+}

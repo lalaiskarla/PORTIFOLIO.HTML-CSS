@@ -1,0 +1,14 @@
+.main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: black;
+    color: blue;
+}
+
+.stage{
+    background-color: blue;
+       gap: 1rem;
+}
+

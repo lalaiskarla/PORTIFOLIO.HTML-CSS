@@ -1,0 +1,72 @@
+
+.section-principal{
+    background-color: #1D1616;
+    color: white;
+    background-image: url('../images/papel-de-parede-wandinha.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding: 0 3rem;
+    font-family: var( --font-text);
+}
+
+.container-button__link{
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    
+}
+
+.container-button__play{
+    background-color: #FFFFFF;
+    /* background-image: url('../images/play.png');
+    background-repeat: no-repeat;
+    background-position: 10% center; */
+}
+
+.container-button__link:hover{
+    background-color: rgba(255, 255, 255, 0.411)
+}
+
+.container-button{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.container-button__information{
+    background-color: #888791;
+    /*background-image: url('../images/information.png');
+    background-repeat: no-repeat;
+    background-position: 10% center; */
+}
+
+.section__container-titulo{
+    font-size: 3rem;
+
+}
+
+.section__container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 10%;
+
+    
+}
+.section__container-text{
+    font-size: 1.5rem;
+}
+
+.container-button__link-image{
+    width: 10%;
+    height: 100%;
+}
