@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+:root{
+    --cinza-escuro: #444444;
+    --cinza-medio: #B9B9B9;
+    --branco: #FFFFFF;
+    --primaria-coral-claro: #EE6451;
+    --primaria-coral-escuro: #C13724;
+    --secundaria-bege-claro: #FFF5EB;
+    --secundaria-bege-2: #F5E6D6;
+    --terciaria-verde-claro: #EFF2E1;
+    --terciaria-verde-2: #CBDA74;
+    --terciaria-verde-3: #A2B72B;
+    --fonte-titulo: 'Sigmar';
+    --fonte-texto: 'Poppins';
+}

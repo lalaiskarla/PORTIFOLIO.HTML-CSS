@@ -1,0 +1,17 @@
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav__lista-item-login{
+  
+}
+.nav__lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;    
+}
+
+.nav__lista-item-login{
+    flex: 2;
+}
