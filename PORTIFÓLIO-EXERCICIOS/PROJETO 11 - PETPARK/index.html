@@ -4,39 +4,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petpark - PETSHOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/destaque.css">
+    <link rel="stylesheet" href="./styles/servicos.css">
+    <link rel="stylesheet" href="./styles/planos.css">
+    <link rel="stylesheet" href="./styles/ofertas.css">
+    <link rel="stylesheet" href="./styles/parceiros.css">
+    <link rel="stylesheet" href="./styles/newsletter.css">
+
+
+
 </head>
 <body>
     <header class="header">
-        <nav class="header__nav">
-            <img src="imagens/logo.svg" alt="Logo Petshop Petpark" class="nav-logo">
-            <input type="search" placeholder="O que você procura?" class="nav-search">
-            <button class="button-login">
-                    <img src="imagens/login.svg" alt="Login" class="button-login-img
-                    <a href="#">Login/Cadastro</a>
-            </button>
-            <ul class="nav__lista">
-                <li class="nav__lista-item nav__lista-item-login">
-
-                </li>
-                <li class="nav__lista-item">
-                    <a href="#">Raças</a>
-                </li>
-                <li class="nav__lista-item">
-                    <a href="#">Planos Pet</a>
-                </li>
-                <li class="nav__lista-item">
-                    <a href="#">Serviços</a>
-                </li>
-                <li class="nav__lista-item">
-                    <a href="#">Sobre nós</a>
-                </li>
-                <li class="nav__lista-item">
-                    <a href="#">Clube de descontos</a>
-                </li>
-        </nav>
-        </ul>
+            <div class="alinhamento-header container">
+                <img src="imagens/logo.svg" alt="Logo Petshop Petpark" >
+                <label class="label-busca" for="campo-busca"> 
+                    <input type="text" placeholder="O que você procura?" class="input-busca" name="campo-busca" id="campo-busca">
+                </label>
+                <button class="botao-login">
+                        <img src="imagens/login.svg" alt="" class="icone-login">
+                        <span class="nav__login-span">Login/Cadastro</span >
+                </button>
+            </div>
+            <nav class="navegacao container">
+                <ul class="menu-lista">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Raças</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Planos Pet</a>
+                    </li>
+                    <li class="menu-item">                        
+                        <a href="#" class="menu-link">Serviços</a>
+                    </li>
+                    <li class="menu-item">                        
+                        <a href="#" class="menu-link">Sobre nós</a>
+                    </li>
+                    <li class="menu-item"> 
+                        <a href="#" class="menu-link">Clube de descontos</a>
+                    </li>
+                </ul>
+            </nav>
     </header>
+    <main>
+        <section class="destaque">
+                <div  class="banner container">
+                    <h1 class="destaque-titulo">Seu melhor amigo, <span>nosso maior cuidado!</span></h1>
+                    <img src="imagens/dogs.svg" alt="Cachorros brincando" >
+                </div>
+        </section>
+        <section class="servicos">
+            <h2 class="servicos-titulo">Nossos serviços</h2>
+            <ul class="servicos-lista">
+                <li class="servicos-item">
+                    <a href="#" class="servicos-link">Banho e Tosa</a>
+                </li>
+                <li class="servicos-item">
+                    <a href="#" class="servicos-link">Hospedagem</a>
+                </li>
+                <li class="servicos-item">
+                    <a href="#" class="servicos-link">Veterinário</a>
+                </li>
+                <li class="servicos-item">
+                    <a href="#" class="servicos-link">Adestramento</a>
+                </li>
+                <li class="servicos-item">
+                    <a href="#" class="servicos-link">Petsitter</a>
+                </li>
+            </ul>
+        </section>
+        <section class="planos">
+            <div class="container-planos container">
+                <h2 class="planos-titulo">Planos mensais para seu pet</h2>
+                <ul class="planos-lista">
+                    <li class="planos-item">
+                        <img src="/imagens/cheirosinho.svg" alt="">
+                        <h3>Cheirosinho</h3>
+                        <p>Banho, tosa e corte de unhas 2x ao mês! O pacote econômico essencial para o bem-estar do seu pet! Não inclui coleta.</p>
+                        <span>R$ 80</span>
+                        <button>Assinar plano</button>
+                    </li>
+                    <li class="planos-item">
+                        <img src="/imagens/amigofiel.svg" alt="">
+                        <h3>Amigo Fiel</h3>
+                        <p>Mais conforto para seu amigo! Banho, tosa, corte de unhas 2x ao mês, 1 consulta veterinária e busca em domicílio!</p>
+                        <span>R$ 120</span>
+                        <button>Assinar plano</button>
+                    </li>
+                    <li class="planos-item">
+                        <img src="/imagens/patadeouro.svg" alt="">
+                        <h3>Pata de Ouro</h3>
+                        <p>Seu amigo merece o mundo! Banho, tosa e unhas 3x ao mês, 1 consulta veterinária, busca em domicílio e adestramento!</p>
+                        <span>R$ 250</span>
+                        <button>Assinar plano</button>
+                    </li>   
+
+                </ul>
+            </div>
+        </section>
+        <section class="ofertas">
+            <h2 class="ofertas__titulo">Super ofertas:</h2>
+            <div class="ofertas__container">
+                <ul class="ofertas__lista">
+                    <li class="ofertas__lista-item">
+                        <img src="/imagens/Biskrok.svg" alt="Biscoito Pedigree Biscrok">
+                        <h3>Biscoito Pedigree Biscrok</h3>
+                        <p>Multi para Cães Adultos 500g</p>
+                        <span>R$ 19,99</span>
+                    </li>
+                    <li class="ofertas__lista-item">
+                        <img src="/imagens/Golden Special.svg" alt="Ração Golden Special">
+                        <h3>Ração Golden Special</h3>
+                        <p>Cães Adultos Sabor Frango e Carne 15kg</p>
+                        <span>R$ 149,00</span>
+                    </li>
+                    <li class="ofertas__lista-item">
+                        <img src="/imagens/Pipicat.svg" alt="Areia Higiênica Pipicat">
+                        <h3>Areia Higiênica Pipicat</h3>
+                        <p>Classic para Gatos 4 Kg</p>
+                        <span>R$ 45,00</span>
+                    </li>
+                    <li class="ofertas__lista-item">
+                        <img src="imagens/Arranhador.svg" alt="Arranhador São Benedito Pet">
+                        <h3>Arranhador São Benedito Pet</h3>
+                        <p>Redondo com pluma e mola rosa</p>
+                        <span>R$ 59,90</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="parceiros">
+            <h2 class="parceiros__titulo">Marcas parceiras</h2>
+                <div class="parceiros__lista container">
+                    <div>
+                        <img src="/imagens/Petisco.svg" alt="Petisco">
+                    </div>
+                    <div>
+                        <img src="imagens/Pelos & Patas.svg" alt="Pelos & Patas">
+                    </div>
+                    <div>
+                        <img src="imagens/Miaw.svg" alt="Miaw">
+                    </div>
+                    <div>
+                        <img src="imagens/Wooofy.svg" alt="Wooofy">
+                    </div>
+                    <div>
+                        <img src="imagens/Animalia.svg" alt="Animalia">
+                    </div>
+                    <div>
+                        <img src="imagens/Petstars.svg" alt="Petstars">
+                    </div>
+                    <div>
+                        <img src="imagens/PetMania.svg" alt="PetMania">
+                    </div>
+                    <div>
+                        <img src="imagens/Rooster.svg" alt="Rooster">
+                    </div>
+                    <div>
+                        <img src="imagens/Bicudos.svg" alt="Bicudos">
+                    </div>
+                    <div>
+                        <img src="imagens/Corgi.svg" alt="Corgi">
+                    </div>
+                    <div>
+                        <img src="imagens/Mascot.svg" alt="Mascot">
+                    </div>
+                    <div>
+                        <img src="imagens/Amigo Fiel.svg" alt="">
+                    </div>
+                </div> 
+        </section>
+        <section class="newsletter">
+            <h2>Assine nossa newsletter!</h2>
+            <p>Cadastre-se e receba nossas promoções e novidades!</p>
+            <form  class="formulario">
+                <label for="email">
+                    <input type="email" id="email" class="formulario-input" placeholder="Insira seu endereço de email" required>
+                </label>
+            </form> 
+        </section>
+    </main>
+
+
 </body>
 </html>

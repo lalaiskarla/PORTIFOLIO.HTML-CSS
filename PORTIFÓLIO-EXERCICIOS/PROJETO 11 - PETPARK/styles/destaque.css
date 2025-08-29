@@ -1,0 +1,45 @@
+.destaque{
+    background-color: var(--bege);
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 7.2rem;
+
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 5rem;
+    justify-content: center;
+
+}
+
+.destaque-titulo{
+    color: var(--coral);
+}
+
+.destaque-titulo span{
+    color: var(--verde-2);
+}
+
+
+@media screen and (max-width: 1200px){
+.destaque{
+    font-size: 3.9rem;
+
+}
+
+.banner{
+        flex-wrap: wrap;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 730){
+
+ 
+}

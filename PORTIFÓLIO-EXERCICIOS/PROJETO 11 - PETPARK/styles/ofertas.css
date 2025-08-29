@@ -1,0 +1,44 @@
+.ofertas{
+    padding: 80px;
+    margin: auto;
+    background-color: var(--bege);
+    font-family: var(--fonte-texto);
+    color: var(--cinza-escuro);
+
+}
+.ofertas__titulo{
+    font-weight: 400;
+    color: var(--coral);
+    font-size: 3.9rem;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.ofertas__lista{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.ofertas__lista-item{
+    background-color: var(--branco);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;   
+    align-items: center;
+
+}
+
+.ofertas__lista-item h3,.ofertas__lista-item span{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.ofertas__lista-item p {
+    font-size: 1.6rem;
+    font-weight: 400;
+
+}

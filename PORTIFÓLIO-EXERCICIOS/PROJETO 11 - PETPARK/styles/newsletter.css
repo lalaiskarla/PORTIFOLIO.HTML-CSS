@@ -1,0 +1,19 @@
+.newsletter{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    padding: 80px 0;
+}
+
+h2{
+    color: var(--coral);
+    font-family: var(--fonte-titulo);
+    font-size: 3.9rem;
+}
+
+p{
+    font-size: 2rem;
+}

@@ -1,0 +1,30 @@
+.parceiros__lista{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 24px;
+    justify-content: center;
+}
+
+/*.parceiros{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 1200px;
+} */
+
+.parceiros{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.parceiros__titulo{
+    font-family: var(--fonte-titulo);
+    color: var(--coral);
+    font-size: 3.9rem;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
