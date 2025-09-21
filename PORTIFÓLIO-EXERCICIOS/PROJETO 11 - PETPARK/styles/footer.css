@@ -1,0 +1,28 @@
+
+.rodape-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+ .rodape-destaque{
+    font-family: var(--fonte-texto);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .rodape-container{
+     margin:3rem;
+     text-align: center;
+     gap: 2rem;
+
+}
+
+
+
+}

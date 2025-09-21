@@ -1,68 +1,94 @@
 .header{
-    font-size: 2rem;
-    font-weight: 400;
-    margin:2.5rem auto;
-    padding: 1rem 0;
-    max-width: 120rem;
+  max-width: 120rem;
+  margin: auto;
+  padding: 3rem;
+}
+ 
+.alinhamento-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  }
-
-.alinhamento-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 1rem;
-
-  }
-
-  
- .menu-lista{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
+.label-busca{
+  flex: 1; 
+}
 
 .input-busca{
-    border-radius: 2rem;
-    background-image: url('/imagens/search.svg');
-    background-repeat: no-repeat;
-    background-position: 97% center;
-    width: 90%;
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--cinza-escuro);
+  border: 1px solid var(--cinza-escuro);
+  border-radius: 32px;
+  margin: 0 2rem;   
+  width: 600px;
+  padding: 1rem;
+  background-image: url('/imagens/search.svg');
+  background-repeat: no-repeat;
+  background-position: 98% center;
 
 }
 
 .input-busca::placeholder{
-    color: var(--cinza-medio);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--cinza-medio);
 }
 
 .botao-login{
-    background-color: transparent;
-    border: none;
-    color:  var(--cinza-escuro);
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--cinza-escuro);  
 }
 
+.menu-lista{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+
+}
 .menu-link{
-    text-decoration: none;
-    color: var(--cinza-escuro);
+  text-decoration: none;
+  color: var(--cinza-escuro);
+  font-size: 2rem;
+
+}
+
+ .menu-link:hover{
+  border-bottom: 1px solid black;
 }
 
 
-@media screen and (max-width: 1200px){
-.alinhamento-header {
-
-    flex-wrap: wrap;
-
+@media screen and (max-width: 1200px) {
+  .header{
+    padding: 2rem 3.75rem;
   }
 
-}
+  .alinhamento-header{
+    flex-wrap: wrap;
+  }
 
+  .alinhamento-header img{
+    order: 1;
+  }
 
-@media screen and (max-width: 730){
+  .botao-login{
+    order: 2;
+  }
 
- 
+  .label-busca{
+    max-width: 100%;
+    order: 3;
+    flex-basis: 100%;
+    margin-top: 1rem;
+  }
+
+  .input-busca{
+    width: 100%;   /* ocupa toda a linha */
+    margin: 24px 0;     /* centralizado, sem empurrar */
+  }
+
+  .menu-lista{
+    padding: 1.5rem 0;
+  }
+
+  
 }

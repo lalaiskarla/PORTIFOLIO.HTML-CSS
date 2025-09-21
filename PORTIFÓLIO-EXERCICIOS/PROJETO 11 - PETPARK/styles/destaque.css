@@ -9,12 +9,14 @@
 .banner{
     display: flex;
     align-items: center;
-    margin: auto;
-    padding-bottom: 5rem;
     justify-content: center;
-
+    max-width: 120rem;
+    padding: 10rem 0;
 }
 
+.banner img{
+    max-width: 550px;
+}
 .destaque-titulo{
     color: var(--coral);
 }
@@ -26,20 +28,16 @@
 
 @media screen and (max-width: 1200px){
 .destaque{
-    font-size: 3.9rem;
+    font-size: 4.9rem;
+    text-align: center;
 
 }
 
 .banner{
-        flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2.5rem 0;
+    max-width: 60rem;
+}
 
 }
 
-
-}
-
-
-@media screen and (max-width: 730){
-
- 
-}

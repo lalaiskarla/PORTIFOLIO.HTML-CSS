@@ -1,24 +1,16 @@
 .parceiros__lista{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 80px;
-    row-gap: 24px;
     justify-content: center;
+    max-width: 120rem;
+    row-gap: 24px;
+    column-gap: 80px;
 }
 
-/*.parceiros{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 1200px;
-} */
 
 .parceiros{
-    max-width: 1200px;
-    margin: auto;
     text-align: center;
-    padding: 80px 0;
+    margin: 80px 360px;
 }
 
 .parceiros__titulo{
@@ -27,4 +19,14 @@ height: 1200px;
     font-size: 3.9rem;
     font-weight: 400;
     padding-bottom: 32px;
+}
+
+@media screen and (max-width:1200px){
+    .parceiros__lista{
+    gap: 24px;
+}
+
+.parceiros{
+    margin: 40px 150px;
+}
 }

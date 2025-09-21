@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./styles/ofertas.css">
     <link rel="stylesheet" href="./styles/parceiros.css">
     <link rel="stylesheet" href="./styles/newsletter.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
 
 
 
@@ -61,10 +63,10 @@
             <h2 class="servicos-titulo">Nossos serviços</h2>
             <ul class="servicos-lista">
                 <li class="servicos-item">
-                    <a href="#" class="servicos-link">Banho e Tosa</a>
+                    <a href="#" class="servicos-link ">Banho e Tosa</a>
                 </li>
                 <li class="servicos-item">
-                    <a href="#" class="servicos-link">Hospedagem</a>
+                    <a href="#" class="servicos-link ">Hospedagem</a>
                 </li>
                 <li class="servicos-item">
                     <a href="#" class="servicos-link">Veterinário</a>
@@ -106,7 +108,7 @@
                 </ul>
             </div>
         </section>
-        <section class="ofertas">
+        <!-- <section class="ofertas">
             <h2 class="ofertas__titulo">Super ofertas:</h2>
             <div class="ofertas__container">
                 <ul class="ofertas__lista">
@@ -136,7 +138,7 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section>-->
         <section class="parceiros">
             <h2 class="parceiros__titulo">Marcas parceiras</h2>
                 <div class="parceiros__lista container">
@@ -177,7 +179,7 @@
                         <img src="imagens/Amigo Fiel.svg" alt="">
                     </div>
                 </div> 
-        </section>
+        </section>  
         <section class="newsletter">
             <h2>Assine nossa newsletter!</h2>
             <p>Cadastre-se e receba nossas promoções e novidades!</p>
@@ -185,10 +187,37 @@
                 <label for="email">
                     <input type="email" id="email" class="formulario-input" placeholder="Insira seu endereço de email" required>
                 </label>
-            </form> 
+                <div class="grupo-opcoes">
+                    <span>Selecione seu pet:</span>
+                    <label for="gato" class="opcao">
+                        <input type="checkbox"  id="gato" name="pet" value="gato"> <span>Gato</span>
+                    </label>
+                    <label for="cao" class="opcao">
+                        <input type="checkbox" name="pet" id="cao"  value="cao"> <span>Cão</span>
+                    </label>
+                    <label for="roedor" class="opcao">
+                        <input type="checkbox" name="pet" id="roedor" value="roedor"> <span>Roedor</span>
+                    </label>
+                    <label for="outros" class="opcao">
+                        <input type="checkbox" name="pet" id="outros" value="outros"> <span>Outros</span>
+                    </label>
+                </div>
+                <button type="submit" class="botao-enviar">Inscrever</button>
+            </form>             
         </section>
     </main>
-
-
+    <footer class="rodape">
+        <div class="rodape-container">
+            <div class="rodape-icones">
+                <p>Acesse nossas redes:</p>
+                <div>
+                    <img src="imagens/Whatsapp.svg" alt="Whatsapp">
+                    <img src="imagens/Instragam.svg" alt="Instragam">
+                    <img src="imagens/Tiktok.svg" alt="Tiktok">
+                </div>           
+            </div>
+        <span class="rodape-destaque">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</span>         
+        </div>
+    </footer>
 </body>
 </html>

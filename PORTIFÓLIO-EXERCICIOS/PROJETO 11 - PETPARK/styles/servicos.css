@@ -18,14 +18,23 @@
 .servicos-link{
     font-size: 2.5rem;
     text-decoration: none;
-    color: var(--coral);
+    color: var(--coral);  
+    position: relative;
+    padding-left: 3rem;
+}
 
 
-
- 
-
-
-    
+.servicos-item:nth-child(1)::before, .servicos-item:nth-child(1):hover{
+    background-image: url('/imagens/Ícone\ banho\ e\ tosa.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(-50%); /* centraliza verticalmente */
+    content: "";
+    left: 0;
+    top: 50%;
+    position: absolute;
+    width: 24px;   /* tamanho do ícone */
+    height: 24px;
 }
 
 .servicos-lista{
@@ -41,3 +50,11 @@
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 1200px) {
+    .servicos-lista{
+    padding: 2.5rem  3.75rem;
+    }
+}
+
+    
